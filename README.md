@@ -2,7 +2,7 @@
 
 A Python-based application that provides **real-time weather updates**, **rain alerts**, and **flood warnings** using live data from `wttr.in`.
 
-This project is designed to help users—especially farmers and general users—make informed decisions based on rainfall and weather conditions.
+This project helps users—especially farmers—make informed decisions based on rainfall and weather conditions.
 
 ---
 
@@ -11,28 +11,9 @@ This project is designed to help users—especially farmers and general users—
 - 🌍 Predefined list of **high-rain and flood-prone cities**
 - 🔍 Supports **custom city input**
 - 🌤 Fetches **live weather data**
-- 🌧 Detects rain using:
-  - Weather description
-  - Precipitation levels (mm)
-- 🚨 Generates **flood warnings** based on:
-  - Heavy rainfall
-  - Hourly precipitation trends
-- 📊 Simple and user-friendly **console output**
-
----
-
-## 🧠 How It Works
-
-1. User selects a city (number or name)
-2. The system fetches weather data from `wttr.in`
-3. It analyzes:
-   - Current weather condition
-   - Rainfall (mm)
-   - Hourly precipitation
-4. Displays:
-   - ✅ Safe irrigation message  
-   - ⚠️ Rain alert  
-   - 🚨 Flood warning  
+- 🌧 Detects rain using weather description and precipitation
+- 🚨 Generates **flood warnings** using rainfall analysis
+- 📊 Simple console-based output
 
 ---
 
@@ -46,17 +27,13 @@ This project is designed to help users—especially farmers and general users—
 
 ## 📦 Installation
 
-1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/weather-flood-alert.git
-cd weather-flood-alert
-Install dependencies:
 pip install requests
 ▶️ Usage
 
 Run the program:
 
-python weather_alert.py
+python main.py
 
 Then:
 
@@ -72,18 +49,12 @@ OR press Enter for default (Cherrapunji)
 🌧 Rain expected soon. Farmers should avoid irrigation.
 
 🚨 FLOOD WARNING!
-⚡ Heavy rainfall / storm detected.
+⚡ Heavy rainfall detected.
 🌊 Flood risk possible in low-lying areas.
 🎯 Use Cases
 🌾 Smart farming decisions
 🌊 Flood risk awareness
-📚 Learning API integration in Python
-🧪 Beginner-friendly project
-🔮 Future Improvements
-GUI (Tkinter / Web Interface)
-SMS / Email alerts
-Machine Learning predictions
-Historical weather analysis
+📚 Learning APIs in Python
 👨‍💻 Author
 
 Swayam Prakash Tripathi
